@@ -1,0 +1,8 @@
+Windows ONLY
+
+	Load oncrpc.sln into vs2015
+	Build oncrpc
+	Libraries created in the Release/ folder
+	copy Release/oncrpc.lib to v190/fluent/lib/win64
+	copy Release/oncrpc.dll to v190/fluent/ntbin/win64
+	commit the changes

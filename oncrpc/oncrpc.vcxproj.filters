@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="rpc">
+      <UniqueIdentifier>{714fe108-2c37-4c63-bf8c-60afb06ade7d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="rpc\auth.h">
+      <Filter>rpc</Filter>
+    </ClInclude>
+    <ClInclude Include="rpc\auth_unix.h">
+      <Filter>rpc</Filter>
+    </ClInclude>
+    <ClInclude Include="rpc\bcopy.h">
+      <Filter>rpc</Filter>
+    </ClInclude>
+    <ClInclude Include="rpc\clnt.h">
+      <Filter>rpc</Filter>
+    </ClInclude>
+    <ClInclude Include="rpc\netdb.h">
+      <Filter>rpc</Filter>
+    </ClInclude>
+    <ClInclude Include="rpc\pmap_clnt.h">
+      <Filter>rpc</Filter>
+    </ClInclude>
+    <ClInclude Include="rpc\pmap_prot.h">
+      <Filter>rpc</Filter>
+    </ClInclude>
+    <ClInclude Include="rpc\pmap_rmt.h">
+      <Filter>rpc</Filter>
+    </ClInclude>
+    <ClInclude Include="rpc\rpc.h">
+      <Filter>rpc</Filter>
+    </ClInclude>
+    <ClInclude Include="rpc\rpc_msg.h">
+      <Filter>rpc</Filter>
+    </ClInclude>
+    <ClInclude Include="rpc\svc.h">
+      <Filter>rpc</Filter>
+    </ClInclude>
+    <ClInclude Include="rpc\svc_auth.h">
+      <Filter>rpc</Filter>
+    </ClInclude>
+    <ClInclude Include="rpc\types.h">
+      <Filter>rpc</Filter>
+    </ClInclude>
+    <ClInclude Include="rpc\xdr.h">
+      <Filter>rpc</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="auth_non.c" />
+    <ClCompile Include="auth_uni.c" />
+    <ClCompile Include="authunix.c" />
+    <ClCompile Include="bcopy.c" />
+    <ClCompile Include="bindresv.c" />
+    <ClCompile Include="clnt_gen.c" />
+    <ClCompile Include="clnt_per.c" />
+    <ClCompile Include="clnt_raw.c" />
+    <ClCompile Include="clnt_sim.c" />
+    <ClCompile Include="clnt_tcp.c" />
+    <ClCompile Include="clnt_udp.c" />
+    <ClCompile Include="get_myad.c" />
+    <ClCompile Include="getrpcen.c" />
+    <ClCompile Include="getrpcpo.c" />
+    <ClCompile Include="nt.c" />
+    <ClCompile Include="pmap_cln.c" />
+    <ClCompile Include="pmap_get.c" />
+    <ClCompile Include="pmap_gma.c" />
+    <ClCompile Include="pmap_pr.c" />
+    <ClCompile Include="pmap_pro.c" />
+    <ClCompile Include="pmap_rmt.c" />
+    <ClCompile Include="rpc_call.c" />
+    <ClCompile Include="rpc_comm.c" />
+    <ClCompile Include="rpc_prot.c" />
+    <ClCompile Include="svc.c" />
+    <ClCompile Include="svc_auth.c" />
+    <ClCompile Include="svc_autu.c" />
+    <ClCompile Include="svc_raw.c" />
+    <ClCompile Include="svc_run.c" />
+    <ClCompile Include="svc_simp.c" />
+    <ClCompile Include="svc_tcp.c" />
+    <ClCompile Include="svc_udp.c" />
+    <ClCompile Include="xdr.c" />
+    <ClCompile Include="xdr_arra.c" />
+    <ClCompile Include="xdr_floa.c" />
+    <ClCompile Include="xdr_mem.c" />
+    <ClCompile Include="xdr_rec.c" />
+    <ClCompile Include="xdr_refe.c" />
+    <ClCompile Include="xdr_stdi.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="oncrpc.def" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="oncrpc.rc" />
+  </ItemGroup>
+</Project>
